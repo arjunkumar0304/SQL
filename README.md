@@ -81,3 +81,45 @@ Used to remove specific rows from a table.
 Used to fetch data from tables.
 
 <img width="1276" height="957" alt="Screenshot 2025-10-22 185444" src="https://github.com/user-attachments/assets/2a191e93-ffe6-4559-942e-54fa33df062f" />
+
+# 6. DCL (Data Control Language) 
+Used to control access or permissions to the data in a database.
+It helps in granting and revoking privileges to users on database objects (like tables, views, etc.).
+
+# EXAMPLE: 
+# GRANT
+Used to give permissions to a user.
+
+( SYNTAX :  GRANT privilege_name ON object_name TO user_name; )
+
+Example for student database  
+* (GRANT SELECT, INSERT ON student TO teacher1;)
+* This allows teacher1 to view (SELECT) and add (INSERT) records in the student table.
+
+# REVOKE
+Used to take back permissions that were previously granted.
+
+( Syntax: REVOKE privilege_name ON object_name FROM user_name;)
+
+Example for student Database
+* (REVOKE INSERT ON student FROM teacher1;)
+* This removes teacher1’s permission to insert data into the student table.
+  
+# 7. DQL (Data Query Language)
+Used to fetch or retrieve data from the database.
+
+# GROUP BY
+Used to group rows that have the same value in one or more columns.
+Usually used with aggregate functions like COUNT, SUM, AVG, etc.
+<img width="1091" height="1003" alt="Screenshot 2025-10-23 161651" src="https://github.com/user-attachments/assets/eb46e13f-e7a6-486a-85a6-b6480c7f31a7" />
+
+# HAVING 
+is like WHERE, but it is used after GROUP BY to filter groups.
+<img width="1286" height="767" alt="Screenshot 2025-10-23 161803" src="https://github.com/user-attachments/assets/f29e131f-6e23-4e7e-9d68-45c7c344cc51" />
+
+# ORDER BY 
+used to sort the result — either ascending (ASC) or descending (DESC) order
+<img width="1185" height="932" alt="Screenshot 2025-10-23 161550" src="https://github.com/user-attachments/assets/ec3022b1-5597-4ef3-a3c5-cbb2761af8b1" />
+
+
+
