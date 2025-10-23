@@ -121,5 +121,35 @@ is like WHERE, but it is used after GROUP BY to filter groups.
 used to sort the result — either ascending (ASC) or descending (DESC) order
 <img width="1185" height="932" alt="Screenshot 2025-10-23 161550" src="https://github.com/user-attachments/assets/ec3022b1-5597-4ef3-a3c5-cbb2761af8b1" />
 
+# 8. TCL (Transaction Control Language)
+TCL commands are used to manage transactions in a database.
+A transaction is a group of SQL operations that are treated as a single unit of work — either all succeed or all fail.
 
+* COMMIT-- permanently saves changes,
+* ROLLBACK -- undoes uncommitted changes,
+* SAVEPOINT  -- lets you set a point to roll back to within a transaction.\
+  
+# 9.Constraints
+* rules you set on your table to keep your data correct and safe.
+* They make sure no wrong or duplicate data goes inside your table.
+# 9.1 PRIMARY KEY
+* Uniquely identifies each record in a table.
+* It cannot be NULL and must be unique.
+Example: studentID INT PRIMARY KEY
 
+# 9.2 FOREIGN KEY
+* Creates a link between two tables.
+* It ensures the value in one table matches a value in another table.
+Example: FOREIGN KEY (deptID) REFERENCES department(deptID)
+
+# 9.3 UNIQUE
+Makes sure all values in a column are different (no duplicates).
+Example: email VARCHAR(30) UNIQUE
+
+# 9.4 CHECK
+Ensures that the values in a column meet a specific condition.
+Example: CHECK (age >= 18)
+
+# 9.5 NOT NULL
+Ensures a column cannot have a NULL (empty) value.
+Example: name VARCHAR(20) NOT NULL
