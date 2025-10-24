@@ -248,10 +248,24 @@ Example: name VARCHAR(20) NOT NULL
 
 <img width="829" height="518" alt="Screenshot 2025-10-24 195337" src="https://github.com/user-attachments/assets/694e7e7a-980c-4ca0-b491-2af7d230a555" />
 
+<img width="1286" height="1001" alt="Screenshot 2025-10-24 200758" src="https://github.com/user-attachments/assets/8f846179-5636-41d5-810a-54708c8ba25d" />
+
 
 
 # 12.3 Logical Operators
 
 <img width="819" height="309" alt="Screenshot 2025-10-24 195354" src="https://github.com/user-attachments/assets/0ee307da-161e-493d-8b61-4498c71a301c" />
+
+<img width="1034" height="923" alt="Screenshot 2025-10-24 201018" src="https://github.com/user-attachments/assets/e26aa530-8ebe-4194-9e89-5a559cac9f67" />
+
+# 12.4 String Concatenation Operator: ||
+
+<img width="1319" height="752" alt="Screenshot 2025-10-24 201252" src="https://github.com/user-attachments/assets/2ea5c1c8-4fda-4a23-b0a2-c784795550d4" />
+
+
+
+
+
+
 
 
