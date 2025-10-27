@@ -266,7 +266,8 @@ Example: name VARCHAR(20) NOT NULL
 # 13.Procedures:
 Procedure in SQL is like a saved program or a set of SQL commands that you can reuse anytime.
 # 13.1 CREATE PROCEDURE: Creating stored procedures.
-<img width="1223" height="684" alt="Screenshot 2025-10-27 145458" src="https://github.com/user-attachments/assets/9507da7e-0ce4-4ef1-a0b2-9428d9a15796" />
+<img width="1108" height="891" alt="Screenshot 2025-10-27 130955" src="https://github.com/user-attachments/assets/cb4234a0-fbd5-4bcf-b635-2b38d6d54264" />
+
 
 # 13.2 ALTER PROCEDURE: Modifying existing stored procedures.
 <img width="1233" height="946" alt="Screenshot 2025-10-27 131155" src="https://github.com/user-attachments/assets/714743d0-2c41-45a4-a8ad-3124a54349f3" />
@@ -278,8 +279,21 @@ Procedure in SQL is like a saved program or a set of SQL commands that you can r
 
 
 # 14. Subquery
+A Subquery is a query inside another query.
+It helps to get data from one query and use it inside another.
 
+Find the oldest student
+<img width="1036" height="749" alt="Screenshot 2025-10-27 175807" src="https://github.com/user-attachments/assets/50413bbd-1972-481b-8e59-8bc6a0b3be07" />
 
+Find youngest student name
+<img width="909" height="718" alt="Screenshot 2025-10-27 181521" src="https://github.com/user-attachments/assets/28826724-1644-4851-9ee8-8dc5538c6a9d" />
+
+# 14.2 CTE
+
+CTE means Common Table Expression.
+It is like a temporary table that you create inside a query — only for that query.
+
+<img width="928" height="617" alt="Screenshot 2025-10-27 184853" src="https://github.com/user-attachments/assets/26a38a8d-a070-471a-8784-a68424066208" />
 
 
 # 15. Views:
