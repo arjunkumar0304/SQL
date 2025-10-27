@@ -263,6 +263,37 @@ Example: name VARCHAR(20) NOT NULL
 <img width="1319" height="752" alt="Screenshot 2025-10-24 201252" src="https://github.com/user-attachments/assets/2ea5c1c8-4fda-4a23-b0a2-c784795550d4" />
 
 
+# 13.Procedures:
+Procedure in SQL is like a saved program or a set of SQL commands that you can reuse anytime.
+# 13.1 CREATE PROCEDURE: Creating stored procedures.
+<img width="1223" height="684" alt="Screenshot 2025-10-27 145458" src="https://github.com/user-attachments/assets/9507da7e-0ce4-4ef1-a0b2-9428d9a15796" />
+
+# 13.2 ALTER PROCEDURE: Modifying existing stored procedures.
+<img width="1233" height="946" alt="Screenshot 2025-10-27 131155" src="https://github.com/user-attachments/assets/714743d0-2c41-45a4-a8ad-3124a54349f3" />
+
+#  13.3 DROP PROCEDURE: Deleting stored procedures.
+
+#  13.4 EXECUTE: Running a stored procedure.
+<img width="1079" height="870" alt="Screenshot 2025-10-27 131118" src="https://github.com/user-attachments/assets/d979be6e-042a-48f5-8ac0-eb6726f0b75f" />
+
+
+# 14. Subquery
+
+
+
+
+# 15. Views:
+A view is a virtual table. It’s used to see specific data easily without writing long queries again and again.
+We use CREATE VIEW to make it and DROP VIEW to remove it.”
+  
+# 3.1 CREATE VIEW: Creating views for simplified querying.
+<img width="1223" height="684" alt="Screenshot 2025-10-27 145458" src="https://github.com/user-attachments/assets/f9f8b8e6-e4a8-4d5e-8925-55401b614764" />
+
+# 3.2 DROP VIEW: Removing views.
+<img width="1227" height="769" alt="Screenshot 2025-10-27 145652" src="https://github.com/user-attachments/assets/df8e22d4-87a2-43ff-bf23-21f7a7cebb41" />
+
+ 
+
 
 
 
